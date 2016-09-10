@@ -3,9 +3,9 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="static/css/froala_editor.min.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="static/css/editor.css" />
+		<link href="../../static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="../../static/css/froala_editor.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="../../static/css/editor.css" />
 		<style>
 			html,
 			body {
@@ -24,10 +24,13 @@
 				</div>
 				<form action="" method="post">
 					<div class="e-l-cont-input">
-						<input type="text" class="e-l-cont-account" name="" id="" value="" placeholder="输入注册邮箱找回密码"/>
+						<input type="text" class="e-l-cont-account" name="" id="" value="" placeholder="输入注册邮箱"/>
 					</div>
 					<div class="e-l-cont-input">
-						<input type="submit" class="e-l-cont-btn" name="" id="" value="确认找回" />
+						<input type="text" class="e-l-cont-account" name="" id="" value="" placeholder="输入邮箱验证码"/>
+					</div>
+					<div class="e-l-cont-input">
+						<input type="submit" class="e-l-cont-btn" name="" id="" value="确认找回" onclick="window.location.href='reset.html';" />
 					</div>
 					<div class="e-l-cont-input-forgot">
 						或 <a href="{% url 'verify:index' %}">返回登录</a>

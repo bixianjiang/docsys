@@ -19,22 +19,21 @@
 		<div class="editor-login">
 			<div class="editor-login-cont">
 				<h1 class="e-l-cont-h1">GencONE文档</h1>
+				<div class="e-l-cont-input-forgot-h">
+					请重置您的密码
+				</div>
 				<form action="" method="post">
 					<div class="e-l-cont-input">
-						<input type="text" class="e-l-cont-account" name="" id="" value="" placeholder="注册邮箱"/>
-					</div>
-				<div class="e-l-cont-input">
-						<input type="password" class="e-l-cont-account" name="" id="e-login-passwd" value=""  placeholder="密码"/>
+						<input type="password" class="e-l-cont-account" name="" id="e-login-passwd" value=""  placeholder="请输入新密码"/>
 						<a href="javascript:;" id="passwd-show" ><i class="fa fa-eye" aria-hidden="true"></i></a>
 						<a href="javascript:;" id="passwd-hide" ><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-
 					</div>
 					<div class="e-l-cont-input">
-						<input type="submit" class="e-l-cont-btn" name="" id="" value="登录" onclick="window.location.href='information.html';"/>
+						<input type="submit" class="e-l-cont-btn" name="" id="" value="完成" onclick="window.location.href='information.html';"/>
 					</div>
-					<div class="e-l-cont-input-forgot">
-						或 <a href="{% url 'verify:retrieve' %}">忘记密码</a>
-					</div>
+					<!--<div class="e-l-cont-input-forgot">
+						或 <a href="#">忘记密码</a>
+					</div>-->
 				</form>
 			</div>
 		</div>
