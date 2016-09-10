@@ -526,6 +526,9 @@ input:-webkit-autofill {
 .a-information-cont li a{
 	text-decoration: none;
     color: #41464b;	
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .new-document{
@@ -567,6 +570,9 @@ input:-webkit-autofill {
 .new-document-cont li a{
 	text-decoration: none;
     color: #41464b;	
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .left-navigation{
@@ -932,4 +938,26 @@ input:-webkit-autofill {
 .documernt-svg{
 	width: 70px;
 	margin-top: 17px;
+}
+
+.share-success-cont, .save-success-cont, .delete-success-cont, .invitation-success-cont{
+	min-width: 70px;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 15px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	background: rgba(0,0,0,.7);
+	color: #ffffff;
+    -moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius: 3px;            /* W3C syntax */	
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -23px;
+    z-index: 99999999;  
+    display: none;  
 }
