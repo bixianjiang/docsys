@@ -4,4 +4,5 @@ from django.db import models
 class Doc(models.Model):
     origin = models.IntegerField()
     user = models.IntegerField()
+    status = models.IntegerField()
     time = models.IntegerField()
