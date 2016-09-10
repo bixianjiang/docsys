@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8"/>
-	<link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="static/css/froala_editor.min.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="static/css/editor.css" />
+	<link href="../../static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="../../static/css/froala_editor.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../../static/css/editor.css" />
 
     <style>
         body {
@@ -67,7 +67,7 @@
 			<div class="e-l-cont-input-forgot-h">
 				欢迎邀请新用户
 			</div>
-			<form action="" method="post">
+			<!--<form action="" method="post">-->
 				<div class="e-l-cont-input">
 					<input type="text" class="e-l-cont-account" name="" id="" value="" placeholder="被邀请人邮箱" />
 				</div>
@@ -78,12 +78,12 @@
 					<input type="text" class="e-l-cont-account" name="" id="" value="" placeholder="被邀请人邮箱" />
 				</div>-->
 				<div class="e-l-cont-input">
-					<input type="submit" class="e-l-cont-btn" name="" id="" value="确定邀请"/>
+					<input type="submit" class="e-l-cont-btn invitation-success-btn" name="" id="" value="确定邀请"/>
 				</div>
 				<!--<div class="e-l-cont-input-forgot">
 					单次邀请上限最多三人
 				</div>-->
-			</form>
+			<!--</form>-->
 		</div>
 		<!--共享分享-->
 		<div class="share-files">
@@ -104,7 +104,7 @@
 					<input type="text" class="e-l-cont-account" name="" id="" value="" placeholder="被邀请人邮箱" />
 				</div>-->
 				<div class="s-f-list-input">
-					<input type="submit" class="e-l-cont-btn" name="" id="" value="确认分享"/>
+					<input type="submit" class="e-l-cont-btn share-success-btn" name="" id="" value="确认分享"/>
 				</div>
 				<!--<div class="e-l-cont-input-forgot">
 					单次邀请上限最多三人
@@ -130,7 +130,7 @@
 
 				</div>
 				<div class="s-f-list-input">
-					<input type="submit" class="e-l-cont-btn" name="" id="" value="确认添加"/>
+					<input type="submit" class="e-l-cont-btn share-success-btn" name="" id="" value="确认添加"/>
 				</div>
 				<!--<div class="e-l-cont-input-forgot">
 					单次邀请上限最多三人
@@ -149,27 +149,37 @@
 					<input type="text" class="save-document-title" id="" value="无标题" placeholder="文档标题">
 				</div>
 				<div class="e-l-cont-input">
-					<input type="submit" class="e-l-cont-btn" name="" id="" value="保存文档"/>
+					<input type="submit" class="e-l-cont-btn save-success-btn" name="" id="" value="保存文档"/>
 				</div>
 				<!--<div class="e-l-cont-input-forgot">
 					单次邀请上限最多三人
 				</div>-->
 			<!--</form>-->
 		</div>
-  <script src="static/js/libs/jquery-1.11.1.min.js"></script>
-  <script src="static/js/froala_editor.min.js"></script>
+		<!--分享成功-->
+		<div class="share-success-cont">
+			
+		</div>
+		<div class="save-success-cont">
+		
+		</div>
+		<div class="invitation-success-cont">
+		
+		</div>
+  <script src="../../static/js/libs/jquery-1.11.1.min.js"></script>
+  <script src="../../static/js/froala_editor.min.js"></script>
   <!--[if lt IE 9]>
     <script src="../js/froala_editor_ie8.min.js"></script>
   <![endif]-->
-  <script src="static/js/plugins/tables.min.js"></script>
-  <script src="static/js/plugins/lists.min.js"></script>
-  <script src="static/js/plugins/colors.min.js"></script>
-  <script src="static/js/plugins/media_manager.min.js"></script>
-  <script src="static/js/plugins/font_family.min.js"></script>
-  <script src="static/js/plugins/font_size.min.js"></script>
-  <script src="static/js/plugins/block_styles.min.js"></script>
-  <script src="static/js/plugins/video.min.js"></script>
-  <script type="text/javascript" src="static/js/editorCommon.js" ></script>
+  <script src="../../static/js/plugins/tables.min.js"></script>
+  <script src="../../static/js/plugins/lists.min.js"></script>
+  <script src="../../static/js/plugins/colors.min.js"></script>
+  <script src="../../static/js/plugins/media_manager.min.js"></script>
+  <script src="../../static/js/plugins/font_family.min.js"></script>
+  <script src="../../static/js/plugins/font_size.min.js"></script>
+  <script src="../../static/js/plugins/block_styles.min.js"></script>
+  <script src="../../static/js/plugins/video.min.js"></script>
+  <script type="text/javascript" src="../../static/js/editorCommon.js" ></script>
 
   <script>
       $(function(){
